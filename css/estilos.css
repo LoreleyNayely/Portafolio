@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@1,300&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px 0;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: #4F0E0E;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    padding: 0 25px 0 25px;
+    margin:auto;
+}
+.navbar.sticky .logo a span{
+    color: aliceblue;
+    transition: all 0.3s ease;
+}
+.navbar .logo a{
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 600px;
+}
+.navbar .menu li a{
+    color:aliceblue;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+
+}
+.navbar .menu li a:hover{
+    color:#C490E4;
+}
+.navbar .logo a span{
+    color:  #C490E4;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.home{
+    display: flex;
+    background: url(/img/32010.jpg);
+    background-size:100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-size: 50px;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 40px;
+}
+.home .max-width{
+   margin: auto 0 auto 0;
+}
+.Text1{
+
+    font-size: 50px;
+}
+.Text2{
+    font-size: 80px;
+}
+.Text3{
+    font-size: 50px; 
+}
+.about .max-width{
+    padding: 10px 10px 80px 0px;
+}
+
+.about .skills{
+    font-family: 'Poppins', sans-serif;
+}
+.about .title{
+    position: relative;
+    text-align: end;
+    font-family: 'Poppins', sans-serif;                   
+    text-decoration: overline black;
+    padding: 50px;
+}
+
+
+.about .about-content .left img{
+    height: 450px;
+    width: 400px;
+    border-radius: 40px;
+    object-fit: cover;
+}
+.about .about-content{
+    display: flex;
+    align-items: flex-start;
+    text-align: justify;
+    justify-content: space-around;
+    
+    
+}
+.max-width{
+    max-width: 850px;
+    
+}
+.about .about-content .column{
+    width: 100%;
+}
+.about .about-content .left{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .about-content .right{
+    width: 55%;
+    padding: 40px 0px 0px 0px;
+    font-size: 23px;
+}
+.about .about-content .left .a{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.body1{
+    background: url(/img/32010.jpg);
+    background-repeat:space;
+    background-position:right;
+    display: flex;
+    flex-direction: column;
+}
+.cua {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.tex{
+    margin:7px;
+    font-size: 20px;
+}
+.pre{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: #1b8bb1;
+    padding: 80px;
+}
+.es {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    height: 400px;
+    width: 240px;
+    border: 5px double cornflowerblue;
+    background-size: 100%;
+    background: url(/img/mune.jpg);
+    background-repeat: no-repeat;
+    border-radius:  40px;
+    top: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    flex-direction: column;
+    padding: 10px 0px 0px 0;
+}
+.clic{
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding:20px;
+    text-decoration: overline black;
+}
+.le{
+    margin:50px;
+    display: flex;
+    justify-content: center;
+    color: #1b8bb1;
+    font-family: 'Ubuntu', sans-serif;
+}
+.input-text{
+    padding: 18px 0px 18px 0px;
+    height: 30px;
+    width: 400px;
+    border:5px solid aliceblue;
+
+}
+.bo{
+    padding: 0px;
+    margin: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.bo :hover{
+    color:#572364;
+}
+
+.bo a{
+    transition: color 0.3s ease;
+    color: blue;
+}
+
+.body2{
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items:center;
+    text-align:center;
+    justify-content: space-evenly ;
+    color: aliceblue;
+    padding: 50px 0px 100px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;  
+}
+.titleb{
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+}
+
+.skills-content1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 30px 0px 0px 0px;
+
+}
+.card{
+    height: 350px;
+    width: 380px;
+    border: 5px double aliceblue;
+    border-radius: 50px ;
+    margin: 0;
+}
+.foto1{
+    margin: 20px 20px 0px 20px;
+    border-radius: 40px;
+    height: 250px;
+    width: 250px;
+    border: 10px double aliceblue;
+
+}
+.text{
+    padding: 15px 0px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.body3{
+    
+    margin:35px 0px 0px 0px;
+    padding:0px ;
+    box-sizing: border-box;
+    display: flex;
+    align-items:center;
+    text-align:center;
+    justify-content: center ;
+    height: 450px;
+}
+.contact10{
+    margin:0px 0px 0px 0px;
+    padding:0px ;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+.titlec{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.boton{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif; 
+    
+}
+.logof{
+height: 40px;
+width: 45px;
+border-radius: 80px;
+padding: 3px 5px ;
+} 
+.face{
+    padding: 0px;
+    margin: 0px;
+    border:2px solid#3b5998;
+    border-radius: 30px;
+    display: flex;
+    justify-content: right;
+    background:#3b5998;
+
+}
+.facel{
+    padding: 8px;
+}
+.face :hover{
+    color:blue;
+}
+.face a{
+    transition: color 0.3s ease;
+    color: aliceblue;
+}
+.face1{
+    padding: 0px;
+    margin: 0px;
+    border:2px solid #8134AF;
+    border-radius: 30px;
+    display: flex;
+    justify-content: right;
+    background:#8134AF;
+}
+.face1 a{
+    transition: color 0.3s ease;
+    color: aliceblue;
+}
+.face1 :hover{
+    color:#DD2A7B;
+}
+.logoi{
+    height: 40px;
+    width: 48px;
+    border-radius: 100%;
+    padding: 3px 5px ;
+}
+
+.face2{
+    padding: 0px;
+    margin: 0px;
+    border:2px solid #25D366;
+    border-radius: 30px;
+    display: flex;
+    justify-content: right;
+    background:#25D366;
+}
+.face2 a{
+    transition: color 0.3s ease;
+    color: aliceblue;
+}
+.face2 :hover{
+    color:#02220e;
+}
+.logow{
+    height: 40px;
+    width: 45px;
+    border-radius: 80px;
+    padding: 3px 5px ;
+}
+
+.face3{
+    padding: 0px;
+    margin: 0px;
+    border:2px solid #00AAE4;
+    border-radius: 30px;
+    display: flex;
+    justify-content: right;
+    background:#00AAE4;
+}
+.face3 a{
+    transition: color 0.3s ease;
+    color: aliceblue;
+}
+.face3 :hover{
+    color:#2271b3;
+}
+.logoc{
+    height: 40px;
+    width: 45px;
+    border-radius: 80px;
+    padding: 3px 5px ;
+}
+.chat{
+    height: 80px;
+    width: 80px;
+}
+.final{
+    padding: 0;
+    margin: 0;
+    background: black;
+    background-size: 100%;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.a{
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 22px;
+    display: flex;
+    text-align:justify;
+    justify-content: left;
+    flex-direction: column;
+    border:2px solid black;
+    border-style: none solid  none;
+    padding: 10px 20px 10px 20px;
+
+}
