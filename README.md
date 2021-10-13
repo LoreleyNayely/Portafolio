@@ -3,6 +3,9 @@
 
 *I'm Loreley Pazmiño and this is my portfolio*
 
+![Loreley](https://user-images.githubusercontent.com/20259832/137051599-393c549b-aade-46e6-9578-a8c3071d0969.png)
+
+
 ## Introduction
 *This page was created in html and CSS* 
 
