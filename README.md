@@ -1,11 +1,6 @@
-# Portafolio
+### [Portfolio](https://loreleynayely.github.io/Portafolio/#contact)
 EPN Software Club Project
 ## *I'm Loreley Pazmiño and this is my portfolio*
-
-## *Install*
-## [Portfolio](https://loreleynayely.github.io/Portafolio/#contact)
-
-
 ### **About me**
 ### **Basic Use**
 |  |  |  |
