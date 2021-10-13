@@ -1,5 +1,7 @@
 ### [Portfolio](https://loreleynayely.github.io/Portafolio/#contact)
 ### EPN Software Club Project
+Introduction
+**This page was created in html and CSS *
 ## *I'm Loreley Pazmiño and this is my portfolio*
 ### **About me**
  - My Blog
